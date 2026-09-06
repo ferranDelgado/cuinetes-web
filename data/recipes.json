@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "date": "2026-06-12",
+    "url": "https://example.com/recipes/spaghetti-carbonara"
+  },
+  {
+    "name": "Chicken Curry",
+    "date": "2026-07-03",
+    "url": "https://example.com/recipes/chicken-curry"
+  },
+  {
+    "name": "Vegan Lasagna",
+    "date": "2026-08-21",
+    "url": "https://example.com/recipes/vegan-lasagna"
+  }
+]
