@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuinetes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🍳 Cuinetes</h1>
+    <nav class="menu" role="tablist" aria-label="Menu">
+      <button class="menu-item is-active" data-target="recipes" role="tab" aria-selected="true">Recipes</button>
+      <button class="menu-item" data-target="builds" role="tab" aria-selected="false">Build</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="recipes" class="panel is-active" role="tabpanel" aria-label="Recipes">
+      <h2>Recipes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Dates</th>
+            <th>Link</th>
+            <th>Copy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Name">Spaghetti Carbonara</td>
+            <td data-label="Dates">2026-06-12</td>
+            <td data-label="Link"><a href="https://example.com/recipes/spaghetti-carbonara" target="_blank" rel="noopener">https://example.com/recipes/spaghetti-carbonara</a></td>
+            <td data-label="Copy"><button class="copy-btn" type="button">Copy URL</button></td>
+          </tr>
+          <tr>
+            <td data-label="Name">Chicken Curry</td>
+            <td data-label="Dates">2026-07-03</td>
+            <td data-label="Link"><a href="https://example.com/recipes/chicken-curry" target="_blank" rel="noopener">https://example.com/recipes/chicken-curry</a></td>
+            <td data-label="Copy"><button class="copy-btn" type="button">Copy URL</button></td>
+          </tr>
+          <tr>
+            <td data-label="Name">Vegan Lasagna</td>
+            <td data-label="Dates">2026-08-21</td>
+            <td data-label="Link"><a href="https://example.com/recipes/vegan-lasagna" target="_blank" rel="noopener">https://example.com/recipes/vegan-lasagna</a></td>
+            <td data-label="Copy"><button class="copy-btn" type="button">Copy URL</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="builds" class="panel" role="tabpanel" aria-label="Build">
+      <h2>Build</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Dates</th>
+            <th>Link</th>
+            <th>Copy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Name">Cuinetes Android APK (v1.0.0)</td>
+            <td data-label="Dates">2026-09-06</td>
+            <td data-label="Link"><a href="builds/cuinetes-v1.0.0.apk">builds/cuinetes-v1.0.0.apk</a></td>
+            <td data-label="Copy"><button class="copy-btn" type="button">Copy URL</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Cuinetes</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
