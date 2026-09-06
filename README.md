@@ -1,6 +1,6 @@
 # cuinetes-web
 
-Public web for **Cuinetes**, hosted on GitHub Pages.
+Public web for **Cuinetes**, hosted on GitHub Pages. [Link](https://ferrandelgado.github.io/cuinetes-web/index.html)
 
 This is a pure HTML site (no framework or build tooling) that provides a menu with two sections:
 
@@ -8,3 +8,4 @@ This is a pure HTML site (no framework or build tooling) that provides a menu wi
 - **Build** — table of downloadable builds (e.g., APK/IPA installers) with name, dates, and a download link.
 
 Each row also includes a **Copy URL** button to copy the corresponding link to the clipboard.
+
