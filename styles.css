@@ -95,6 +95,10 @@ thead th {
   padding: 0.5rem;
 }
 
+thead th.actions-col {
+  width: 1%;
+}
+
 tbody td {
   padding: 0.75rem 0.5rem;
   border-bottom: 1px solid var(--border);
@@ -105,20 +109,33 @@ tbody tr:last-child td {
   border-bottom: none;
 }
 
-td a {
+td a.link {
   color: var(--accent-dark);
   word-break: break-all;
 }
 
-.copy-btn {
+.actions-cell {
+  white-space: nowrap;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
   font: inherit;
   font-size: 0.85rem;
-  padding: 0.35rem 0.8rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-btn {
   background: var(--accent);
   color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
 }
 
 .copy-btn:hover {
@@ -130,6 +147,15 @@ td a {
   background: #2a9d8f;
 }
 
+.btn-download {
+  background: var(--text);
+  color: #fff;
+}
+
+.btn-download:hover {
+  background: #000;
+}
+
 footer {
   text-align: center;
   color: var(--muted);
@@ -137,9 +163,71 @@ footer {
   padding: 1.5rem;
 }
 
-@media (max-width: 600px) {
-  table {
+@media (max-width: 640px) {
+  header {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  /* Collapse tables into stacked, tappable cards */
+  thead {
+    display: none;
+  }
+
+  table,
+  tbody,
+  tr,
+  td {
     display: block;
-    overflow-x: auto;
+    width: 100%;
+  }
+
+  tbody tr {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    white-space: normal;
+  }
+
+  tbody td:last-child {
+    border-bottom: none;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+
+  td.actions-cell {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  td.actions-cell::before {
+    content: "";
+    display: none;
+  }
+
+  td.actions-cell .btn {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
   }
 }
