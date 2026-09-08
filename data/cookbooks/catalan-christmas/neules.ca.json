@@ -1,0 +1,31 @@
+{
+  "id": "neules",
+  "cookbookId": "catalan-christmas",
+  "language": "ca",
+  "title": "Neules",
+  "description": "Dolç cruixent i senzill que no pot faltar a la taula de Nadal: neules enrotllades fetes amb la planxa clàssica.",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 20,
+  "servings": 20,
+  "difficulty": "easy",
+  "category": "dessert",
+  "tags": ["Dolç", "Nadal", "Biscuit", "Cruixent"],
+  "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Farina", "amount": 125, "unit": "g" },
+    { "id": "ing-2", "name": "Sucre", "amount": 125, "unit": "g" },
+    { "id": "ing-3", "name": "Ous", "amount": 2, "unit": "unitats" },
+    { "id": "ing-4", "name": "Mantega", "amount": 60, "unit": "g" },
+    { "id": "ing-5", "name": "Pell de llimona ratllada", "amount": 1, "unit": "unitat" },
+    { "id": "ing-6", "name": "Aigua de flor de taronger", "amount": 15, "unit": "ml" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Batre els ous", "description": "Bateu els ous amb el sucre fins que quedin blancs i espumosos.", "durationMinutes": 5 },
+    { "stepNumber": 2, "title": "Fer la massa", "description": "Afegiu-hi la farina, la mantega fosa, la ratlladura de llimona i l'aigua de flor de taronger; barregeu fins a obtenir una pasta homogeni.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Cuinar a la planxa", "description": "Escalfeu la planxa de neules i aboqueu-hi una cullerada de pasta cada cop, estenent-la fina.", "durationMinutes": 15 },
+    { "stepNumber": 4, "title": "Enrotllar", "description": "Cuineu fins que agafi un color daurat clar, sense deixar que es cremin, i enrotlleu cada neula immediatament en calent amb l'ajut d'un bastonet.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Refredar", "description": "Deixeu-les refredar damunt una reixeta abans de servir-les." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

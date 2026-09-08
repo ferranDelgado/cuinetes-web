@@ -1,0 +1,31 @@
+{
+  "id": "espinacs-a-la-catalana",
+  "cookbookId": "catalan-christmas",
+  "language": "en",
+  "title": "Catalan Spinach",
+  "description": "A traditional Christmas side dish: spinach sautéed with pine nuts, raisins and garlic, with a sweet Mediterranean touch.",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "servings": 4,
+  "difficulty": "easy",
+  "category": "salad",
+  "tags": ["Vegetables", "Side dish", "Raisins", "Pine nuts"],
+  "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Fresh spinach", "amount": 1000, "unit": "g" },
+    { "id": "ing-2", "name": "Pine nuts", "amount": 50, "unit": "g" },
+    { "id": "ing-3", "name": "Raisins", "amount": 80, "unit": "g" },
+    { "id": "ing-4", "name": "Garlic", "amount": 2, "unit": "cloves" },
+    { "id": "ing-5", "name": "Extra virgin olive oil", "amount": 4, "unit": "tbsp" },
+    { "id": "ing-6", "name": "Salt and pepper", "amount": 1, "unit": "to taste" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Wash the spinach", "description": "Wash the spinach well and drain it, keeping the tenderest leaves.", "durationMinutes": 5 },
+    { "stepNumber": 2, "title": "Soften the raisins", "description": "Soften the raisins briefly in warm water or sherry.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Toast the pine nuts", "description": "In a large pan, toast the pine nuts in the oil and set them aside.", "durationMinutes": 3 },
+    { "stepNumber": 4, "title": "Sauté the spinach", "description": "Sauté the sliced garlic cloves and add the spinach in batches, stirring until it wilts completely.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Finish and serve", "description": "Add the raisins and pine nuts, season with salt and pepper and serve hot.", "durationMinutes": 2 }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

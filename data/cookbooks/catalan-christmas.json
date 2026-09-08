@@ -1,310 +1,131 @@
 {
   "id": "catalan-christmas",
-  "title": {
-    "ca": "Cuina Catalana de Nadal",
-    "en": "Catalan Christmas Cuisine"
-  },
-  "description": {
-    "ca": "Els plats més tradicionals de les festes de Nadal a Catalunya: de l'escudella i carn d'olla als canelons de Sant Esteve, passant pels dolços casolans com les neules i les peres al vi.",
-    "en": "The most traditional dishes of the Christmas festivities in Catalonia: from escudella and carn d'olla to Sant Esteve cannelloni, including homemade sweets such as neules wafers and pears in wine."
-  },
+  "title": "Cuina Catalana de Nadal",
+  "description": "Els plats més tradicionals de les festes de Nadal a Catalunya: de l'escudella i carn d'olla als canelons de Sant Esteve, passant pels dolços casolans com les neules i les peres al vi. (Catalan Christmas Cuisine — available in Català and English.)",
   "author": "Cuines de l'àvia",
   "accentColor": "#C4122E",
+  "version": "1.0.0",
   "supportedLanguages": ["ca", "en"],
-  "defaultLanguage": "ca",
   "createdAt": "2026-09-08T00:00:00Z",
   "updatedAt": "2026-09-08T00:00:00Z",
   "recipes": [
     {
       "id": "escudella-i-carn-dolla",
-      "category": "main",
+      "slug": "escudella-i-carn-dolla",
+      "title": "Escudella i carn d'olla",
+      "category": "soup",
       "difficulty": "medium",
       "prepTimeMinutes": 45,
       "cookTimeMinutes": 150,
       "servings": 8,
-      "tags": {
-        "ca": ["Nadal", "Sopa", "Tradicional", "Carns"],
-        "en": ["Christmas", "Soup", "Traditional", "Meats"]
-      },
+      "tags": ["Nadal", "Sopa", "Tradicional", "Carns"],
       "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&auto=format&fit=crop&q=80",
-      "content": {
+      "availableLanguages": ["ca", "en"],
+      "defaultLanguage": "ca",
+      "sources": {
         "ca": {
-          "title": "Escudella i carn d'olla",
-          "description": "El plat més emblemàtic del Nadal català. Una sopa calenta de galets grossos amb pilota, verdures i carns variades, seguida de la carn d'olla com a segon plat.",
-          "ingredients": [
-            { "name": "Galets (pasta gran)", "amount": 300, "unit": "g" },
-            { "name": "Cama de porc", "amount": 500, "unit": "g" },
-            { "name": "Gallina", "amount": 0.5, "unit": "unitat" },
-            { "name": "Os de pernil", "amount": 1, "unit": "unitat" },
-            { "name": "Os de vedella", "amount": 1, "unit": "unitat" },
-            { "name": "Xoriço", "amount": 1, "unit": "unitat" },
-            { "name": "Butifarra negra", "amount": 1, "unit": "unitat" },
-            { "name": "Patates", "amount": 4, "unit": "unitats" },
-            { "name": "Pastanagues", "amount": 3, "unit": "unitats" },
-            { "name": "Api", "amount": 2, "unit": "branques" },
-            { "name": "Col", "amount": 0.25, "unit": "unitat" },
-            { "name": "Cebes", "amount": 2, "unit": "unitats" },
-            { "name": "All", "amount": 2, "unit": "grans" },
-            { "name": "Carn picada (per a la pilota)", "amount": 400, "unit": "g" },
-            { "name": "Ou", "amount": 1, "unit": "unitat" },
-            { "name": "Pa ratllat", "amount": 50, "unit": "g" },
-            { "name": "Julivert", "amount": 1, "unit": "grapat" },
-            { "name": "Sal i pebre negre", "amount": 1, "unit": "al gust" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Bulliu totes les carns i els ossos en una olla gran amb aigua abundant, sal i les verdures (patates, pastanagues, api, ceba i col) durant unes dues hores, retirant l'escuma que pugi." },
-            { "step": 2, "description": "Mentrestant, prepareu la pilota barrejant la carn picada, l'all i el julivert picats, l'ou i el pa ratllat; formeu una mandonguilla gran i lligueu-la amb un fil." },
-            { "step": 3, "description": "Afegiu la pilota, el xoriço i la butifarra negra al brou i deixeu coure uns 30 minuts més." },
-            { "step": 4, "description": "Coleu el brou i bulliu-hi els galets durant 10-12 minuts fins que estiguin al dente." },
-            { "step": 5, "description": "Serveu primer la sopa amb els galets i una rodanxa de pilota, i després la carn i les verdures com a segon plat, acompanyades del xoriço i la butifarra." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/escudella-i-carn-dolla.ca.json"
         },
         "en": {
-          "title": "Escudella i carn d'olla",
-          "description": "The most emblematic Catalan Christmas dish. A hearty soup of large galets pasta with a big meatball, vegetables and an assortment of meats, followed by the boiled meat (carn d'olla) as a second course.",
-          "ingredients": [
-            { "name": "Galets (large pasta)", "amount": 300, "unit": "g" },
-            { "name": "Pork shank", "amount": 500, "unit": "g" },
-            { "name": "Hen", "amount": 0.5, "unit": "unit" },
-            { "name": "Ham bone", "amount": 1, "unit": "unit" },
-            { "name": "Beef bone", "amount": 1, "unit": "unit" },
-            { "name": "Chorizo", "amount": 1, "unit": "unit" },
-            { "name": "Blood sausage", "amount": 1, "unit": "unit" },
-            { "name": "Potatoes", "amount": 4, "unit": "units" },
-            { "name": "Carrots", "amount": 3, "unit": "units" },
-            { "name": "Celery", "amount": 2, "unit": "stalks" },
-            { "name": "Cabbage", "amount": 0.25, "unit": "unit" },
-            { "name": "Onions", "amount": 2, "unit": "units" },
-            { "name": "Garlic", "amount": 2, "unit": "cloves" },
-            { "name": "Minced meat (for the meatball)", "amount": 400, "unit": "g" },
-            { "name": "Egg", "amount": 1, "unit": "unit" },
-            { "name": "Breadcrumbs", "amount": 50, "unit": "g" },
-            { "name": "Parsley", "amount": 1, "unit": "handful" },
-            { "name": "Salt and black pepper", "amount": 1, "unit": "to taste" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Boil all the meats and bones in a large pot with plenty of salted water and the vegetables (potatoes, carrots, celery, onion and cabbage) for about two hours, skimming off any foam that rises." },
-            { "step": 2, "description": "Meanwhile, make the pilota by mixing the minced meat with chopped garlic and parsley, the egg and the breadcrumbs; shape into one large meatball and tie it with kitchen string." },
-            { "step": 3, "description": "Add the meatball, chorizo and blood sausage to the broth and cook for a further 30 minutes." },
-            { "step": 4, "description": "Strain the broth and boil the galets pasta in it for 10-12 minutes until al dente." },
-            { "step": 5, "description": "Serve the soup first with the galets and a slice of meatball, then the meat and vegetables as a second course, accompanied by the chorizo and blood sausage." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/escudella-i-carn-dolla.en.json"
         }
       }
     },
-{
+    {
       "id": "canelons-de-sant-esteve",
-      "category": "main",
+      "slug": "canelons-de-sant-esteve",
+      "title": "Canelons de Sant Esteve",
+      "category": "dinner",
       "difficulty": "easy",
       "prepTimeMinutes": 40,
       "cookTimeMinutes": 25,
       "servings": 6,
-      "tags": {
-        "ca": ["Canelons", "Reaprofitament", "Formatge al forn", "Tradicional"],
-        "en": ["Cannelloni", "Leftovers", "Baked cheese", "Traditional"]
-      },
+      "tags": ["Canelons", "Reaprofitament", "Formatge al forn", "Tradicional"],
       "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&auto=format&fit=crop&q=80",
-      "content": {
+      "availableLanguages": ["ca", "en"],
+      "defaultLanguage": "ca",
+      "sources": {
         "ca": {
-          "title": "Canelons de Sant Esteve",
-          "description": "El segon plat del Nadal català per excel·lència, que se sol menjar el 26 de desembre. Canelons gratinats farcits amb les carns sobrants del rostit de Nadal, coberts de beixamel i formatge.",
-          "ingredients": [
-            { "name": "Canelons", "amount": 24, "unit": "unitats" },
-            { "name": "Carn rostida sobrant (vedella, pollastre, porc)", "amount": 500, "unit": "g" },
-            { "name": "Ceba", "amount": 1, "unit": "unitat" },
-            { "name": "Tomàquet triturat", "amount": 200, "unit": "g" },
-            { "name": "Beixamel", "amount": 500, "unit": "ml" },
-            { "name": "Formatge ratllat", "amount": 100, "unit": "g" },
-            { "name": "Oli d'oliva", "amount": 3, "unit": "cullerades" },
-            { "name": "Sal, pebre i nou moscada", "amount": 1, "unit": "al gust" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Tritureu o talleu finament la carn rostida sobrant." },
-            { "step": 2, "description": "Sofregiu la ceba picada amb oli fins que estigui tova, afegiu el tomàquet i deixeu reduir; incorporeu-hi la carn i amaniu amb sal, pebre i nou moscada." },
-            { "step": 3, "description": "Couseu els canelons segons les indicacions del paquet i deixeu-los refredar sobre un drap net." },
-            { "step": 4, "description": "Farciu els canelons amb la carn i enrotlleu-los; col·loqueu-los ben junts en una safata." },
-            { "step": 5, "description": "Cobriu-los amb la beixamel i el formatge ratllat i enforneu-los a 200 °C fins que quedin daurats i gratinats." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/canelons-de-sant-esteve.ca.json"
         },
         "en": {
-          "title": "Sant Esteve Cannelloni",
-          "description": "The quintessential second course of Catalan Christmas, traditionally eaten on 26 December. Baked cannelloni stuffed with the leftover roasted meats from Christmas, topped with béchamel and cheese.",
-          "ingredients": [
-            { "name": "Cannelloni tubes", "amount": 24, "unit": "units" },
-            { "name": "Leftover roast meat (beef, chicken, pork)", "amount": 500, "unit": "g" },
-            { "name": "Onion", "amount": 1, "unit": "unit" },
-            { "name": "Crushed tomato", "amount": 200, "unit": "g" },
-            { "name": "Béchamel sauce", "amount": 500, "unit": "ml" },
-            { "name": "Grated cheese", "amount": 100, "unit": "g" },
-            { "name": "Olive oil", "amount": 3, "unit": "tbsp" },
-            { "name": "Salt, pepper and nutmeg", "amount": 1, "unit": "to taste" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Mince or finely chop the leftover roast meat." },
-            { "step": 2, "description": "Sauté the chopped onion in oil until soft, add the crushed tomato and let it reduce; stir in the meat and season with salt, pepper and nutmeg." },
-            { "step": 3, "description": "Cook the cannelloni tubes according to the package instructions and let them cool on a clean cloth." },
-            { "step": 4, "description": "Stuff the cannelloni with the meat mixture and roll them up; place them tightly in a baking dish." },
-            { "step": 5, "description": "Cover with béchamel and grated cheese and bake at 200 °C until golden and bubbling." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/canelons-de-sant-esteve.en.json"
         }
       }
     },
     {
       "id": "espinacs-a-la-catalana",
-      "category": "side",
+      "slug": "espinacs-a-la-catalana",
+      "title": "Espinacs a la catalana",
+      "category": "salad",
       "difficulty": "easy",
       "prepTimeMinutes": 10,
       "cookTimeMinutes": 15,
       "servings": 4,
-      "tags": {
-        "ca": ["Verdures", "Acompanyament", "Panses", "Pinyons"],
-        "en": ["Vegetables", "Side dish", "Raisins", "Pine nuts"]
-      },
+      "tags": ["Verdures", "Acompanyament", "Panses", "Pinyons"],
       "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=800&auto=format&fit=crop&q=80",
-      "content": {
+      "availableLanguages": ["ca", "en"],
+      "defaultLanguage": "ca",
+      "sources": {
         "ca": {
-          "title": "Espinacs a la catalana",
-          "description": "Acompanyament tradicional de Nadal: espinacs saltats amb pinyons, panses i all, amb un toc dolç i mediterrani.",
-          "ingredients": [
-            { "name": "Espinacs frescos", "amount": 1000, "unit": "g" },
-            { "name": "Pinyons", "amount": 50, "unit": "g" },
-            { "name": "Panses", "amount": 80, "unit": "g" },
-            { "name": "All", "amount": 2, "unit": "grans" },
-            { "name": "Oli d'oliva verge extra", "amount": 4, "unit": "cullerades" },
-            { "name": "Sal i pebre", "amount": 1, "unit": "al gust" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Renteu bé els espinacs i escorreu-los, reservant les fulles més tendres." },
-            { "step": 2, "description": "Escaldeu lleugerament les panses en aigua tèbia o xerès perquè s'estovin." },
-            { "step": 3, "description": "En una paella gran, daureu els pinyons amb l'oli i reserveu-los." },
-            { "step": 4, "description": "Sofregiu els grans d'all a rodanxes i afegiu-hi els espinacs per tandes, remenant fins que abaixin completament." },
-            { "step": 5, "description": "Afegiu-hi les panses i els pinyons, amaniu amb sal i pebre i serviu calent." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/espinacs-a-la-catalana.ca.json"
         },
         "en": {
-          "title": "Catalan Spinach",
-          "description": "A traditional Christmas side dish: spinach sautéed with pine nuts, raisins and garlic, with a sweet Mediterranean touch.",
-          "ingredients": [
-            { "name": "Fresh spinach", "amount": 1000, "unit": "g" },
-            { "name": "Pine nuts", "amount": 50, "unit": "g" },
-            { "name": "Raisins", "amount": 80, "unit": "g" },
-            { "name": "Garlic", "amount": 2, "unit": "cloves" },
-            { "name": "Extra virgin olive oil", "amount": 4, "unit": "tbsp" },
-            { "name": "Salt and pepper", "amount": 1, "unit": "to taste" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Wash the spinach well and drain it, keeping the tenderest leaves." },
-            { "step": 2, "description": "Soften the raisins briefly in warm water or sherry." },
-            { "step": 3, "description": "In a large pan, toast the pine nuts in the oil and set them aside." },
-            { "step": 4, "description": "Sauté the sliced garlic cloves and add the spinach in batches, stirring until it wilts completely." },
-            { "step": 5, "description": "Add the raisins and pine nuts, season with salt and pepper and serve hot." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/espinacs-a-la-catalana.en.json"
         }
       }
     },
     {
       "id": "neules",
+      "slug": "neules",
+      "title": "Neules",
       "category": "dessert",
       "difficulty": "easy",
       "prepTimeMinutes": 20,
       "cookTimeMinutes": 20,
       "servings": 20,
-      "tags": {
-        "ca": ["Dolç", "Nadal", "Biscuit", "Cruixent"],
-        "en": ["Sweet", "Christmas", "Cookie", "Crispy"]
-      },
+      "tags": ["Dolç", "Nadal", "Biscuit", "Cruixent"],
       "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=80",
-      "content": {
+      "availableLanguages": ["ca", "en"],
+      "defaultLanguage": "ca",
+      "sources": {
         "ca": {
-          "title": "Neules",
-          "description": "Dolç cruixent i senzill que no pot faltar a la taula de Nadal: neules enrotllades fetes amb la planxa clàssica.",
-          "ingredients": [
-            { "name": "Farina", "amount": 125, "unit": "g" },
-            { "name": "Sucre", "amount": 125, "unit": "g" },
-            { "name": "Ous", "amount": 2, "unit": "unitats" },
-            { "name": "Mantega", "amount": 60, "unit": "g" },
-            { "name": "Pell de llimona ratllada", "amount": 1, "unit": "unitat" },
-            { "name": "Aigua de flor de taronger", "amount": 15, "unit": "ml" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Bateu os ous amb el sucre fins que quedin blancs i espumosos." },
-            { "step": 2, "description": "Afegiu-hi la farina, la mantega fosa, la ratlladura de llimona i l'aigua de flor de taronger; barregeu fins a obtenir una pasta homogeni." },
-            { "step": 3, "description": "Escalfeu la planxa de neules i aboqueu-hi una cullerada de pasta cada cop, estenent-la fina." },
-            { "step": 4, "description": "Couseu fins que agafi un color daurat clar, sense deixar que es cremin." },
-            { "step": 5, "description": "Enrotlleu cada neula immediatament en calent amb l'ajut d'un bastonet i deixeu-les refredar damunt una reixeta." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/neules.ca.json"
         },
         "en": {
-          "title": "Neules (Catalan Wafers)",
-          "description": "A simple, crispy sweet that is a Christmas table must-have: rolled neules wafers made on the classic iron.",
-          "ingredients": [
-            { "name": "Flour", "amount": 125, "unit": "g" },
-            { "name": "Sugar", "amount": 125, "unit": "g" },
-            { "name": "Eggs", "amount": 2, "unit": "units" },
-            { "name": "Butter", "amount": 60, "unit": "g" },
-            { "name": "Grated lemon zest", "amount": 1, "unit": "unit" },
-            { "name": "Orange blossom water", "amount": 15, "unit": "ml" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Whisk the eggs with the sugar until pale and fluffy." },
-            { "step": 2, "description": "Add the flour, melted butter, lemon zest and orange blossom water; mix until you get a smooth batter." },
-            { "step": 3, "description": "Heat the neula iron and spoon in a small amount of batter each time, spreading it thin." },
-            { "step": 4, "description": "Cook until light golden, taking care not to burn them." },
-            { "step": 5, "description": "Roll each neula up immediately while hot using a thin stick and let them cool on a wire rack." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/neules.en.json"
         }
       }
     },
     {
       "id": "peres-al-vi",
+      "slug": "peres-al-vi",
+      "title": "Peres al vi",
       "category": "dessert",
       "difficulty": "easy",
       "prepTimeMinutes": 15,
       "cookTimeMinutes": 40,
       "servings": 8,
-      "tags": {
-        "ca": ["Postre", "Fruita", "Vi negre", "Canyella"],
-        "en": ["Dessert", "Fruit", "Red wine", "Cinnamon"]
-      },
+      "tags": ["Postre", "Fruita", "Vi negre", "Canyella"],
       "imageUrl": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=80",
-      "content": {
+      "availableLanguages": ["ca", "en"],
+      "defaultLanguage": "ca",
+      "sources": {
         "ca": {
-          "title": "Peres al vi",
-          "description": "Postre elegant i festiu: peres confitades en vi negre amb canyella i clau, servides amb el xarop reduït.",
-          "ingredients": [
-            { "name": "Peres (varietat bosc)", "amount": 8, "unit": "unitats" },
-            { "name": "Vi negre", "amount": 750, "unit": "ml" },
-            { "name": "Sucre", "amount": 200, "unit": "g" },
-            { "name": "Canyella en branca", "amount": 1, "unit": "unitat" },
-            { "name": "Clau d'olor", "amount": 4, "unit": "unitats" },
-            { "name": "Pell de taronja", "amount": 1, "unit": "tira" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Peleu les peres deixant la cua intacta." },
-            { "step": 2, "description": "Bulliu el vi amb el sucre, la canyella, el clau i la pell de taronja fins que el sucre es dissolgui." },
-            { "step": 3, "description": "Afegiu-hi les peres i couseu-les a foc suau durant uns 30 minuts fins que estiguin tendres." },
-            { "step": 4, "description": "Retireu les peres i reduïu el vi a foc fort fins que espesseixi i agafi textura d'almívar." },
-            { "step": 5, "description": "Serveu les peres amb el xarop, ben fredes o a temperatura ambient." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/peres-al-vi.ca.json"
         },
         "en": {
-          "title": "Pears in Wine",
-          "description": "An elegant festive dessert: pears poached in red wine with cinnamon and clove, served with the reduced syrup.",
-          "ingredients": [
-            { "name": "Pears (Bosc variety)", "amount": 8, "unit": "units" },
-            { "name": "Red wine", "amount": 750, "unit": "ml" },
-            { "name": "Sugar", "amount": 200, "unit": "g" },
-            { "name": "Cinnamon stick", "amount": 1, "unit": "unit" },
-            { "name": "Cloves", "amount": 4, "unit": "units" },
-            { "name": "Orange peel", "amount": 1, "unit": "strip" }
-          ],
-          "instructions": [
-            { "step": 1, "description": "Peel the pears keeping the stem intact." },
-            { "step": 2, "description": "Boil the wine with the sugar, cinnamon, cloves and orange peel until the sugar dissolves." },
-            { "step": 3, "description": "Add the pears and cook over a gentle heat for about 30 minutes until tender." },
-            { "step": 4, "description": "Remove the pears and reduce the wine over high heat until it thickens into a syrup." },
-            { "step": 5, "description": "Serve the pears with the syrup, well chilled or at room temperature." }
-          ]
+          "type": "remote",
+          "url": "https://raw.githubusercontent.com/ferranDelgado/cuinetes-web/main/data/cookbooks/catalan-christmas/peres-al-vi.en.json"
         }
       }
     }

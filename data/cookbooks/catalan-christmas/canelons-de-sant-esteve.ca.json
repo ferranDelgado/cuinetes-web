@@ -1,0 +1,33 @@
+{
+  "id": "canelons-de-sant-esteve",
+  "cookbookId": "catalan-christmas",
+  "language": "ca",
+  "title": "Canelons de Sant Esteve",
+  "description": "El segon plat del Nadal català per excel·lència, que se sol menjar el 26 de desembre. Canelons gratinats farcits amb les carns sobrants del rostit de Nadal, coberts de beixamel i formatge.",
+  "prepTimeMinutes": 40,
+  "cookTimeMinutes": 25,
+  "servings": 6,
+  "difficulty": "easy",
+  "category": "dinner",
+  "tags": ["Canelons", "Reaprofitament", "Formatge al forn", "Tradicional"],
+  "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Canelons", "amount": 24, "unit": "unitats" },
+    { "id": "ing-2", "name": "Carn rostida sobrant (vedella, pollastre, porc)", "amount": 500, "unit": "g" },
+    { "id": "ing-3", "name": "Ceba", "amount": 1, "unit": "unitat" },
+    { "id": "ing-4", "name": "Tomàquet triturat", "amount": 200, "unit": "g" },
+    { "id": "ing-5", "name": "Beixamel", "amount": 500, "unit": "ml" },
+    { "id": "ing-6", "name": "Formatge ratllat", "amount": 100, "unit": "g" },
+    { "id": "ing-7", "name": "Oli d'oliva", "amount": 3, "unit": "cullerades" },
+    { "id": "ing-8", "name": "Sal, pebre i nou moscada", "amount": 1, "unit": "al gust" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Preparar el farcit", "description": "Tritureu o talleu finament la carn rostida sobrant.", "durationMinutes": 10 },
+    { "stepNumber": 2, "title": "Sofregir", "description": "Sofregiu la ceba picada amb oli fins que estigui tova, afegiu el tomàquet i deixeu reduir; incorporeu-hi la carn i amaniu amb sal, pebre i nou moscada.", "durationMinutes": 15 },
+    { "stepNumber": 3, "title": "Coure els canelons", "description": "Couseu els canelons segons les indicacions del paquet i deixeu-los refredar sobre un drap net.", "durationMinutes": 10 },
+    { "stepNumber": 4, "title": "Farcir", "description": "Farciu els canelons amb la carn i enrotlleu-los; col·loqueu-los ben junts en una safata.", "durationMinutes": 15 },
+    { "stepNumber": 5, "title": "Gratinar", "description": "Cobriu-los amb la beixamel i el formatge ratllat i enforneu-los a 200 °C fins que quedin daurats i gratinats.", "durationMinutes": 25 }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}
