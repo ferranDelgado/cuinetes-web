@@ -1,0 +1,43 @@
+{
+  "id": "escudella-i-carn-dolla",
+  "cookbookId": "catalan-christmas",
+  "language": "en",
+  "title": "Escudella i carn d'olla",
+  "description": "The most emblematic Catalan Christmas dish. A hearty soup of large galets pasta with a big meatball, vegetables and an assortment of meats, followed by the boiled meat (carn d'olla) as a second course.",
+  "prepTimeMinutes": 45,
+  "cookTimeMinutes": 150,
+  "servings": 8,
+  "difficulty": "medium",
+  "category": "soup",
+  "tags": ["Christmas", "Soup", "Traditional", "Meats"],
+  "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Galets (large pasta)", "amount": 300, "unit": "g" },
+    { "id": "ing-2", "name": "Pork shank", "amount": 500, "unit": "g" },
+    { "id": "ing-3", "name": "Hen", "amount": 0.5, "unit": "unit" },
+    { "id": "ing-4", "name": "Ham bone", "amount": 1, "unit": "unit" },
+    { "id": "ing-5", "name": "Beef bone", "amount": 1, "unit": "unit" },
+    { "id": "ing-6", "name": "Chorizo", "amount": 1, "unit": "unit" },
+    { "id": "ing-7", "name": "Blood sausage", "amount": 1, "unit": "unit" },
+    { "id": "ing-8", "name": "Potatoes", "amount": 4, "unit": "units" },
+    { "id": "ing-9", "name": "Carrots", "amount": 3, "unit": "units" },
+    { "id": "ing-10", "name": "Celery", "amount": 2, "unit": "stalks" },
+    { "id": "ing-11", "name": "Cabbage", "amount": 0.25, "unit": "unit" },
+    { "id": "ing-12", "name": "Onions", "amount": 2, "unit": "units" },
+    { "id": "ing-13", "name": "Garlic", "amount": 2, "unit": "cloves" },
+    { "id": "ing-14", "name": "Minced meat (for the meatball)", "amount": 400, "unit": "g" },
+    { "id": "ing-15", "name": "Egg", "amount": 1, "unit": "unit" },
+    { "id": "ing-16", "name": "Breadcrumbs", "amount": 50, "unit": "g" },
+    { "id": "ing-17", "name": "Parsley", "amount": 1, "unit": "handful" },
+    { "id": "ing-18", "name": "Salt and black pepper", "amount": 1, "unit": "to taste" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Boil the meats", "description": "Boil all the meats and bones in a large pot with plenty of salted water and the vegetables (potatoes, carrots, celery, onion and cabbage) for about two hours, skimming off any foam that rises.", "durationMinutes": 120 },
+    { "stepNumber": 2, "title": "Make the meatball", "description": "Meanwhile, make the pilota by mixing the minced meat with chopped garlic and parsley, the egg and the breadcrumbs; shape into one large meatball and tie it with kitchen string.", "durationMinutes": 15 },
+    { "stepNumber": 3, "title": "Add the meatball", "description": "Add the meatball, chorizo and blood sausage to the broth and cook for a further 30 minutes.", "durationMinutes": 30 },
+    { "stepNumber": 4, "title": "Cook the galets", "description": "Strain the broth and boil the galets pasta in it for 10-12 minutes until al dente.", "durationMinutes": 12 },
+    { "stepNumber": 5, "title": "Serve", "description": "Serve the soup first with the galets and a slice of meatball, then the meat and vegetables as a second course, accompanied by the chorizo and blood sausage." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

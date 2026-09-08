@@ -1,0 +1,31 @@
+{
+  "id": "neules",
+  "cookbookId": "catalan-christmas",
+  "language": "en",
+  "title": "Neules (Catalan Wafers)",
+  "description": "A simple, crispy sweet that is a Christmas table must-have: rolled neules wafers made on the classic iron.",
+  "prepTimeMinutes": 20,
+  "cookTimeMinutes": 20,
+  "servings": 20,
+  "difficulty": "easy",
+  "category": "dessert",
+  "tags": ["Sweet", "Christmas", "Cookie", "Crispy"],
+  "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Flour", "amount": 125, "unit": "g" },
+    { "id": "ing-2", "name": "Sugar", "amount": 125, "unit": "g" },
+    { "id": "ing-3", "name": "Eggs", "amount": 2, "unit": "units" },
+    { "id": "ing-4", "name": "Butter", "amount": 60, "unit": "g" },
+    { "id": "ing-5", "name": "Grated lemon zest", "amount": 1, "unit": "unit" },
+    { "id": "ing-6", "name": "Orange blossom water", "amount": 15, "unit": "ml" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Whisk the eggs", "description": "Whisk the eggs with the sugar until pale and fluffy.", "durationMinutes": 5 },
+    { "stepNumber": 2, "title": "Make the batter", "description": "Add the flour, melted butter, lemon zest and orange blossom water; mix until you get a smooth batter.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Cook on the iron", "description": "Heat the neula iron and spoon in a small amount of batter each time, spreading it thin.", "durationMinutes": 15 },
+    { "stepNumber": 4, "title": "Roll them up", "description": "Cook until light golden, taking care not to burn them, and roll each neula up immediately while hot using a thin stick.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Let them cool", "description": "Let them cool on a wire rack before serving." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "escudella-i-carn-dolla",
+  "cookbookId": "catalan-christmas",
+  "language": "ca",
+  "title": "Escudella i carn d'olla",
+  "description": "El plat més emblemàtic del Nadal català. Una sopa calenta de galets grossos amb pilota, verdures i carns variades, seguida de la carn d'olla com a segon plat.",
+  "prepTimeMinutes": 45,
+  "cookTimeMinutes": 150,
+  "servings": 8,
+  "difficulty": "medium",
+  "category": "soup",
+  "tags": ["Nadal", "Sopa", "Tradicional", "Carns"],
+  "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Galets (pasta gran)", "amount": 300, "unit": "g" },
+    { "id": "ing-2", "name": "Cama de porc", "amount": 500, "unit": "g" },
+    { "id": "ing-3", "name": "Gallina", "amount": 0.5, "unit": "unitat" },
+    { "id": "ing-4", "name": "Os de pernil", "amount": 1, "unit": "unitat" },
+    { "id": "ing-5", "name": "Os de vedella", "amount": 1, "unit": "unitat" },
+    { "id": "ing-6", "name": "Xoriço", "amount": 1, "unit": "unitat" },
+    { "id": "ing-7", "name": "Butifarra negra", "amount": 1, "unit": "unitat" },
+    { "id": "ing-8", "name": "Patates", "amount": 4, "unit": "unitats" },
+    { "id": "ing-9", "name": "Pastanagues", "amount": 3, "unit": "unitats" },
+    { "id": "ing-10", "name": "Api", "amount": 2, "unit": "branques" },
+    { "id": "ing-11", "name": "Col", "amount": 0.25, "unit": "unitat" },
+    { "id": "ing-12", "name": "Cebes", "amount": 2, "unit": "unitats" },
+    { "id": "ing-13", "name": "All", "amount": 2, "unit": "grans" },
+    { "id": "ing-14", "name": "Carn picada (per a la pilota)", "amount": 400, "unit": "g" },
+    { "id": "ing-15", "name": "Ou", "amount": 1, "unit": "unitat" },
+    { "id": "ing-16", "name": "Pa ratllat", "amount": 50, "unit": "g" },
+    { "id": "ing-17", "name": "Julivert", "amount": 1, "unit": "grapat" },
+    { "id": "ing-18", "name": "Sal i pebre negre", "amount": 1, "unit": "al gust" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Bullir les carns", "description": "Bulliu totes les carns i els ossos en una olla gran amb aigua abundant, sal i les verdures (patates, pastanagues, api, ceba i col) durant unes dues hores, retirant l'escuma que pugi.", "durationMinutes": 120 },
+    { "stepNumber": 2, "title": "Fer la pilota", "description": "Mentrestant, prepareu la pilota barrejant la carn picada, l'all i el julivert picats, l'ou i el pa ratllat; formeu una mandonguilla gran i lligueu-la amb un fil.", "durationMinutes": 15 },
+    { "stepNumber": 3, "title": "Afegir la pilota", "description": "Afegiu la pilota, el xoriço i la butifarra negra al brou i deixeu coure uns 30 minuts més.", "durationMinutes": 30 },
+    { "stepNumber": 4, "title": "Coure els galets", "description": "Coleu el brou i bulliu-hi els galets durant 10-12 minuts fins que estiguin al dente.", "durationMinutes": 12 },
+    { "stepNumber": 5, "title": "Servir", "description": "Serveu primer la sopa amb els galets i una rodanxa de pilota, i després la carn i les verdures com a segon plat, acompanyades del xoriço i la butifarra." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

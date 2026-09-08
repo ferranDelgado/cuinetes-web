@@ -1,0 +1,31 @@
+{
+  "id": "peres-al-vi",
+  "cookbookId": "catalan-christmas",
+  "language": "ca",
+  "title": "Peres al vi",
+  "description": "Postre elegant i festiu: peres confitades en vi negre amb canyella i clau, servides amb el xarop reduït.",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 40,
+  "servings": 8,
+  "difficulty": "easy",
+  "category": "dessert",
+  "tags": ["Postre", "Fruita", "Vi negre", "Canyella"],
+  "imageUrl": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Peres (varietat bosc)", "amount": 8, "unit": "unitats" },
+    { "id": "ing-2", "name": "Vi negre", "amount": 750, "unit": "ml" },
+    { "id": "ing-3", "name": "Sucre", "amount": 200, "unit": "g" },
+    { "id": "ing-4", "name": "Canyella en branca", "amount": 1, "unit": "unitat" },
+    { "id": "ing-5", "name": "Clau d'olor", "amount": 4, "unit": "unitats" },
+    { "id": "ing-6", "name": "Pell de taronja", "amount": 1, "unit": "tira" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Pelejar les peres", "description": "Peleu les peres deixant la cua intacta.", "durationMinutes": 10 },
+    { "stepNumber": 2, "title": "Preparar el vi", "description": "Bulliu el vi amb el sucre, la canyella, el clau i la pell de taronja fins que el sucre es dissolgui.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Confitir les peres", "description": "Afegiu-hi les peres i couseu-les a foc suau durant uns 30 minuts fins que estiguin tendres.", "durationMinutes": 30 },
+    { "stepNumber": 4, "title": "Reduir el xarop", "description": "Retireu les peres i reduïu el vi a foc fort fins que espesseixi i agafi textura d'almívar.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Servir", "description": "Serveu les peres amb el xarop, ben fredes o a temperatura ambient." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

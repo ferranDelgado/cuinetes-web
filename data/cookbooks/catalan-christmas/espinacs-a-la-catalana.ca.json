@@ -1,0 +1,31 @@
+{
+  "id": "espinacs-a-la-catalana",
+  "cookbookId": "catalan-christmas",
+  "language": "ca",
+  "title": "Espinacs a la catalana",
+  "description": "Acompanyament tradicional de Nadal: espinacs saltats amb pinyons, panses i all, amb un toc dolç i mediterrani.",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "servings": 4,
+  "difficulty": "easy",
+  "category": "salad",
+  "tags": ["Verdures", "Acompanyament", "Panses", "Pinyons"],
+  "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Espinacs frescos", "amount": 1000, "unit": "g" },
+    { "id": "ing-2", "name": "Pinyons", "amount": 50, "unit": "g" },
+    { "id": "ing-3", "name": "Panses", "amount": 80, "unit": "g" },
+    { "id": "ing-4", "name": "All", "amount": 2, "unit": "grans" },
+    { "id": "ing-5", "name": "Oli d'oliva verge extra", "amount": 4, "unit": "cullerades" },
+    { "id": "ing-6", "name": "Sal i pebre", "amount": 1, "unit": "al gust" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Rentar els espinacs", "description": "Renteu bé els espinacs i escorreu-los, reservant les fulles més tendres.", "durationMinutes": 5 },
+    { "stepNumber": 2, "title": "Estovar les panses", "description": "Escaldeu lleugerament les panses en aigua tèbia o xerès perquè s'estovin.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Daurar els pinyons", "description": "En una paella gran, daureu els pinyons amb l'oli i reserveu-los.", "durationMinutes": 3 },
+    { "stepNumber": 4, "title": "Saltejar els espinacs", "description": "Sofregiu els grans d'all a rodanxes i afegiu-hi els espinacs per tandes, remenant fins que abaixin completament.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Acabar i servir", "description": "Afegiu-hi les panses i els pinyons, amaniu amb sal i pebre i serviu calent.", "durationMinutes": 2 }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "peres-al-vi",
+  "cookbookId": "catalan-christmas",
+  "language": "en",
+  "title": "Pears in Wine",
+  "description": "An elegant festive dessert: pears poached in red wine with cinnamon and clove, served with the reduced syrup.",
+  "prepTimeMinutes": 15,
+  "cookTimeMinutes": 40,
+  "servings": 8,
+  "difficulty": "easy",
+  "category": "dessert",
+  "tags": ["Dessert", "Fruit", "Red wine", "Cinnamon"],
+  "imageUrl": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Pears (Bosc variety)", "amount": 8, "unit": "units" },
+    { "id": "ing-2", "name": "Red wine", "amount": 750, "unit": "ml" },
+    { "id": "ing-3", "name": "Sugar", "amount": 200, "unit": "g" },
+    { "id": "ing-4", "name": "Cinnamon stick", "amount": 1, "unit": "unit" },
+    { "id": "ing-5", "name": "Cloves", "amount": 4, "unit": "units" },
+    { "id": "ing-6", "name": "Orange peel", "amount": 1, "unit": "strip" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Peel the pears", "description": "Peel the pears keeping the stem intact.", "durationMinutes": 10 },
+    { "stepNumber": 2, "title": "Prepare the wine", "description": "Boil the wine with the sugar, cinnamon, cloves and orange peel until the sugar dissolves.", "durationMinutes": 5 },
+    { "stepNumber": 3, "title": "Poach the pears", "description": "Add the pears and cook over a gentle heat for about 30 minutes until tender.", "durationMinutes": 30 },
+    { "stepNumber": 4, "title": "Reduce the syrup", "description": "Remove the pears and reduce the wine over high heat until it thickens into a syrup.", "durationMinutes": 10 },
+    { "stepNumber": 5, "title": "Serve", "description": "Serve the pears with the syrup, well chilled or at room temperature." }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "canelons-de-sant-esteve",
+  "cookbookId": "catalan-christmas",
+  "language": "en",
+  "title": "Sant Esteve Cannelloni",
+  "description": "The quintessential second course of Catalan Christmas, traditionally eaten on 26 December. Baked cannelloni stuffed with the leftover roasted meats from Christmas, topped with béchamel and cheese.",
+  "prepTimeMinutes": 40,
+  "cookTimeMinutes": 25,
+  "servings": 6,
+  "difficulty": "easy",
+  "category": "dinner",
+  "tags": ["Cannelloni", "Leftovers", "Baked cheese", "Traditional"],
+  "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&auto=format&fit=crop&q=80",
+  "ingredients": [
+    { "id": "ing-1", "name": "Cannelloni tubes", "amount": 24, "unit": "units" },
+    { "id": "ing-2", "name": "Leftover roast meat (beef, chicken, pork)", "amount": 500, "unit": "g" },
+    { "id": "ing-3", "name": "Onion", "amount": 1, "unit": "unit" },
+    { "id": "ing-4", "name": "Crushed tomato", "amount": 200, "unit": "g" },
+    { "id": "ing-5", "name": "Béchamel sauce", "amount": 500, "unit": "ml" },
+    { "id": "ing-6", "name": "Grated cheese", "amount": 100, "unit": "g" },
+    { "id": "ing-7", "name": "Olive oil", "amount": 3, "unit": "tbsp" },
+    { "id": "ing-8", "name": "Salt, pepper and nutmeg", "amount": 1, "unit": "to taste" }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "title": "Prepare the filling", "description": "Mince or finely chop the leftover roast meat.", "durationMinutes": 10 },
+    { "stepNumber": 2, "title": "Sauté", "description": "Sauté the chopped onion in oil until soft, add the crushed tomato and let it reduce; stir in the meat and season with salt, pepper and nutmeg.", "durationMinutes": 15 },
+    { "stepNumber": 3, "title": "Cook the cannelloni", "description": "Cook the cannelloni tubes according to the package instructions and let them cool on a clean cloth.", "durationMinutes": 10 },
+    { "stepNumber": 4, "title": "Stuff", "description": "Stuff the cannelloni with the meat mixture and roll them up; place them tightly in a baking dish.", "durationMinutes": 15 },
+    { "stepNumber": 5, "title": "Bake", "description": "Cover with béchamel and grated cheese and bake at 200 °C until golden and bubbling.", "durationMinutes": 25 }
+  ],
+  "createdAt": "2026-09-08T00:00:00Z",
+  "updatedAt": "2026-09-08T00:00:00Z"
+}
