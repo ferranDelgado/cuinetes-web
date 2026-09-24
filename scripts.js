@@ -60,8 +60,10 @@ function renderRecipes(recipes) {
 }
 
 function renderBuilds(builds) {
+  // Support both legacy plain-array format and { builds: [...] } wrapper.
+  const list = Array.isArray(builds) ? builds : (builds.builds || []);
   const tbody = document.querySelector("#builds tbody");
-  tbody.innerHTML = builds
+  tbody.innerHTML = list
     .map(
       (b) => `
         <tr>
