@@ -1,12 +1,15 @@
-[
-  {
-    "version": "v1.0.1",
-    "date": "2026-09-17",
-    "url": "https://github.com/ferranDelgado/cuinetes-web/releases/download/v1.0.1/cuinetes-v1.0.1.apk"
-  },
-  {
-    "version": "v1.0.0",
-    "date": "2026-09-08",
-    "url": "https://github.com/ferranDelgado/cuinetes-web/releases/download/v1.0.0/cuinetes-v1.0.0.apk"
-  }
-]
+{
+  "_comment": "Version format: <package.json version>-<short git commit hash> (e.g. v1.0.1-a1b2c3d). The commit hash lets you trace any build back to the exact source code that produced it.",
+  "builds": [
+    {
+      "version": "v1.0.1",
+      "date": "2026-09-17",
+      "url": "https://github.com/ferranDelgado/cuinetes-web/releases/download/v1.0.1/cuinetes-v1.0.1.apk"
+    },
+    {
+      "version": "v1.0.0",
+      "date": "2026-09-08",
+      "url": "https://github.com/ferranDelgado/cuinetes-web/releases/download/v1.0.0/cuinetes-v1.0.0.apk"
+    }
+  ]
+}
