@@ -16,6 +16,7 @@
     "Cruixent"
   ],
   "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&auto=format&fit=crop&q=80",
+  "foodType": "dessert",
   "ingredients": [
     {
       "id": "ing-1",

@@ -16,6 +16,7 @@
     "Canyella"
   ],
   "imageUrl": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&auto=format&fit=crop&q=80",
+  "foodType": "dessert",
   "ingredients": [
     {
       "id": "ing-1",
