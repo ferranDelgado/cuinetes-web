@@ -9,3 +9,13 @@ This is a pure HTML site (no framework or build tooling) that provides a menu wi
 
 Each row also includes a **Copy URL** button to copy the corresponding link to the clipboard.
 
+---
+
+## 📲 Access the web
+
+Scan the QR code to open the Cuinetes web (GitHub Pages):
+
+![Scan to open the Cuinetes web](qr-web.png)
+
+Or open the link directly: [https://ferrandelgado.github.io/cuinetes-web/index.html](https://ferrandelgado.github.io/cuinetes-web/index.html)
+
