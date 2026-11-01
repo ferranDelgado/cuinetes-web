@@ -11,11 +11,11 @@ Each row also includes a **Copy URL** button to copy the corresponding link to t
 
 ---
 
-## 📲 Download the app
+## 📲 Access the web
 
-Scan the QR code to open the latest release and download the build (APK/IPA):
+Scan the QR code to open the Cuinetes web (GitHub Pages):
 
-![Scan to open the latest release](qr-releases.png)
+![Scan to open the Cuinetes web](qr-web.png)
 
-Or open the link directly: [https://github.com/ferranDelgado/cuinetes/releases/latest](https://github.com/ferranDelgado/cuinetes/releases/latest)
+Or open the link directly: [https://ferrandelgado.github.io/cuinetes-web/index.html](https://ferrandelgado.github.io/cuinetes-web/index.html)
 
